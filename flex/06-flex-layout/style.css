@@ -5,6 +5,42 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: rgb(239, 239, 239);
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rgb(151, 150, 150)
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display:flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.content {
+  align-self: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
